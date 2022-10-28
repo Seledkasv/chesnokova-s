@@ -19,14 +19,14 @@ a{
 main{
     max-width: 1280px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 60px 200px;
+    padding: 100px 60px;
 }
 
-.main__left{
-    max-width: 35%;
-    padding: 0 20px;
+/* Section 0 */
+
+.main__section0{
+    display: flex;
+    justify-content: space-between;
 }
 .social{
     padding-left: 25px;
@@ -40,46 +40,51 @@ main{
     background: url(img/tg-20.png);
     background-repeat: no-repeat;
 }
-.main__left__info{
-    margin-bottom: 80px;
+.git{
+    background: url(img/github-logo-white-20x20.png);
+    background-repeat: no-repeat;
 }
 
-.accordion {
-    display: flex;
-    flex-direction: column;
-    background-color: #ddd;
-    color: black;
-    cursor: pointer;
-    padding: 20px;
-    width: 100%;
-    text-align: left;
-    font-size: .9em;
-    border: none;
-    border-bottom: 2px solid black;
-    outline: none;
-    transition: 0.4s;
+/* left block */
+
+.main__section0__left{
+    width: 400px;
+    padding-left: 20px;
+    margin: 0 40px 40px 0;
 }
-.active, .accordion:hover {
-    background-color: #bbb;
+.main__section0__left__info{
+    margin-bottom: 60px;
 }
-.panel {
+.main__section0__left__skills{
+    margin-bottom: 40px;
+}
+.main__section0__left__skills ul{
     padding: 0 20px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    text-align: center;
+    font-size: 0.8em;
 }
-.main__right h2{
+.main__section0__left__skills li{
+    line-height: 1.5em;
+}
+
+
+
+/* right block */
+
+.main__section0__right{
+    margin-bottom: 40px;
+}
+.main__section0__right h2{
     padding: 0 20px;
 }
-.main__right__table-media{
+.main__section0__right__table-media{
     display: none;
 }
-.main__right__table{
+.main__section0__right__table{
+    /* border-collapse: collapse; */
     border-spacing: 20px;
     border: none;
 }
-.main__right__table__td{
+.main__section0__right__table__td{
     width: 300px;
     height: 200px; 
     text-align: center;
@@ -115,9 +120,49 @@ main{
     background-position: center;
 }
 
+/* Сертификаты */
+
+.certificate{
+    padding: 20px;
+}
+.certificate__accordion{
+    max-width: 400px;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: .9em;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #bbb;
+}
+.panel {
+    padding: 10px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+.panel img{
+    max-width: 100%;
+}
+
+
+/* Footer */
 
 footer{
     background: black;
+    /* border-top: 1px solid SeaShell; */
 }
 .footer__content{
     max-width: 1280px;

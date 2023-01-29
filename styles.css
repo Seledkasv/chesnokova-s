@@ -103,6 +103,11 @@ main{
 .td-button:hover{
     background: rgba(0, 0, 0, .2);
 }
+
+.td-mamalena{
+    background: url(img/mamalena.jpg);
+    background-position: center;
+}
 .td-ikra{
     background: url(img/ikra.jpg);
     background-position: center;

@@ -35,5 +35,6 @@
         display: block;
         border-spacing: 20px;
         border: none;
+        margin-left: -20px;
     }
 }

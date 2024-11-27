@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-image: url(img/bggreen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #000;
+    background-color: #63A39A;
+    margin: auto;
+}
+
+a {
+    color: #8B008B;
+    text-decoration: none;
+}
+a:hover {
+    color: #008080;
+}
+
+a.hover_white:hover {
+    color: #fff;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+p, li {
+    line-height: 1.5em;
+}
+
+.home_button svg:hover {
+    fill:#008080;
+}
+
+header {
+    max-width: 1280px;
+    box-sizing: border-box;   
+    padding: 40px 40px 0;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.button_lang {
+    background: none;
+    border: none;
+    color:#8B008B;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button_lang:hover {
+    color:#008080;
+}
+
+section {    
+    margin: auto;
+}
+
+.section-block {
+    box-sizing: border-box;
+    max-width: 1280px;
+    padding: 20px 40px 60px;
+    margin: auto;
+}
+
+.block-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block-flex-2-inside {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.section-2 {
+    background: #fff;
+}
+
+.block-3 {
+    line-height: 1.5em;
+    background: #e4f4c5;
+}
+
+
+/* Иконки соц сетей */
+
+.main__section0{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    padding-left: 25px;
+    line-height: 1.5em;
+}
+.vk{
+    background: url(img/vk-20-magenta.png);
+    background-repeat: no-repeat;
+}
+.vk:hover{
+    background: url(img/vk-20-darkgreen.png);
+    background-repeat: no-repeat;
+}
+.tg{
+    background: url(img/tg-20-magenta.png);
+    background-repeat: no-repeat;
+}
+.tg:hover{
+    background: url(img/tg-20-darkgreen.png);
+    background-repeat: no-repeat;
+}
+.git{
+    background: url(img/github-logo-20-magenta.png);
+    background-repeat: no-repeat;
+}
+.git:hover{
+    background: url(img/github-logo-20-darkgreen.png);
+    background-repeat: no-repeat;
+}
+.git_footer {
+    background: url(img/github-logo-20-magenta.png);
+    background-repeat: no-repeat;
+}
+.git_footer:hover {
+    background: url(img/github-logo-white-20x20.png);
+    background-repeat: no-repeat;
+}
+
+/* Сертификаты */
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    background-color: #63A39A;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: .9em;
+    border: none;
+    border-radius: 2px;
+    /* border-bottom: 2px solid black; */
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #fff;
+    color: #8B008B;
+}
+.panel {
+    padding: 10px;
+    background-color: white;
+    color: #000;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+.panel img{
+    max-width: 100%;
+}
+
+.line {
+    border: 1px #fff solid;
+}
+
+/* FOOTER */
+
+.footer__content{
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+/* ГАЛЕРЕЯ */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .gallery img {
+    width: 31%;
+    height: 31%;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+  }
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+  }
+  .modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  .modal-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .close, .prev, .next {
+    position: fixed;
+    top: 50%;
+    color:#fff;
+    font-size: 48px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .close:hover, .prev:hover, .next:hover {
+    color:#008080;
+  }
+  .close {
+    top: 2%;
+    right: 2%;
+    transform: none;
+  }
+  .prev {
+    left: 2%;
+  }
+  .next {
+    right: 2%;
+  }
+  
+img.hover-shadow {
+    transition: 0.3s;
+}
+  
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    transform: scale(1.05);
+}

@@ -166,7 +166,6 @@ const translations = {
                         </a>
                         <p>Сайт-визитка придорожного кафе для удобства клиентов в поиске адреса на карте.</p>
                     </div>
-                    <div class="card">
 
                     <div class="card">
                         <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>

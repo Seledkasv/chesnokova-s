@@ -59,11 +59,11 @@ const translations = {
                             <a href="site/mama-lena.html"><h3>Website for a roadside cafe "Мама Лена"</h3></a>
                             <p>Business card website of a roadside cafe for the convenience of customers in finding the address on the map.</p>
                         </div>
-                        <div class="card">
-                            <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
-                            <a href="site/seledkasv.html"><h3>Gallery of photos and paintings</h3></a>
-                            <p>Business card website with portfolio<br>CMS: Wordpress</p>
-                        </div>
+                        // <div class="card">
+                        //     <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
+                        //     <a href="site/seledkasv.html"><h3>Gallery of photos and paintings</h3></a>
+                        //     <p>Business card website with portfolio<br>CMS: Wordpress</p>
+                        // </div>
                         <div class="card">
                             <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>                    
                             <a href="site/study.html"><h3>Study website</h3></a>

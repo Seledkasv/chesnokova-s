@@ -22,6 +22,11 @@ a:hover {
 a.hover_white:hover {
     color: #fff;
 }
+.a_white_bg {
+    background: #ffffff;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
 
 ul {
     padding-left: 20px;

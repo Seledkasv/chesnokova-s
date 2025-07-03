@@ -22,7 +22,7 @@ const translations = {
                 <li>CRM: Redmine, ПланФикс, Битрикс24</li>
                 <li>Graphic programs: Figma, Adobe Photoshop, CorelDRAW, ArchiCAD, Autodesk 3ds Max</li>
             </ul>
-            <a href="CV_Svetlana_Chesnokova.pdf" target="_blank">My resume</a>
+            <a href="CV_Svetlana_Chesnokova_2025.pdf" target="_blank">My resume</a>
             `,
         contactsH: `Contacts`,
 

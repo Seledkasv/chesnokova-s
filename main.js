@@ -2,7 +2,7 @@
 const translations = {
     en: {
         name: `Сhesnokova Svetlana`,
-        description: `Junior frontend developer`,
+        description: `UX/UI designer / Junior frontend developer`,
         skills: `                     
             <ul>
                 <li>Websites development</li>
@@ -100,7 +100,7 @@ const translations = {
 
     ru: {
         name: `Чеснокова Светлана`,
-        description: `Frontend-разработчик`,
+        description: `UX/UI дизайнер / Frontend-разработчик`,
         skills: `                     
             <ul>
                 <li>Разработка сайтов</li>

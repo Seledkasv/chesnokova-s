@@ -61,6 +61,12 @@ const translations = {
                         </div>
 
                         <div class="card">
+                            <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
+                            <a href="site/seledkasv.html"><h3>Gallery of photos and paintings</h3></a>
+                            <p>Business card website with portfolio<br>CMS: Wordpress</p>
+                        </div>
+
+                        <div class="card">
                             <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>                    
                             <a href="site/study.html"><h3>Study website</h3></a>
                             <p>The site is created using tables, grid and flex modules</p>
@@ -165,6 +171,14 @@ const translations = {
                             <h3>Сайт для придорожного кафе "Мама Лена"</h3>
                         </a>
                         <p>Сайт-визитка придорожного кафе для удобства клиентов в поиске адреса на карте.</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
+                        <a href="site/seledkasv.html">
+                            <h3>Галерея фотографий и картин</h3>
+                        </a>
+                        <p>Сайт-визитка с портфолио<br>CMS: Wordpress</p>
                     </div>
 
                     <div class="card">

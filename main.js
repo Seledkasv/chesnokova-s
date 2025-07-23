@@ -49,6 +49,11 @@ const translations = {
                             <p>The landing page was developed to present a new product line of antifreezes.<br>CMS: Wordpress</p>
                         </div>
                         <div class="card">
+                            <a href="site/x-freeze.html"><img src="img/sites/x-freeze.jpg" class="hover-shadow"></a>                    
+                            <a href="site/x-freeze.html"><h3>Antifreeze "X-Freeze"</h3></a>
+                            <p>Redesign of the product presentation landing page</p>
+                        </div>
+                        <div class="card">
                             <a href="site/ikra-tattoing.html"><img src="img/sites/ikra.jpg" class="hover-shadow"></a>                    
                             <a href="site/ikra-tattoing.html"><h3>Business card website for a tattoo artist</h3></a>
                             <p>Business card website with portfolio.</p>
@@ -70,6 +75,9 @@ const translations = {
                             <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>                    
                             <a href="site/study.html"><h3>Study website</h3></a>
                             <p>The site is created using tables, grid and flex modules</p>
+                        </div>
+
+                        <div class="card">
                         </div>
                     </div>
                 </div>`,
@@ -158,6 +166,11 @@ const translations = {
                         <p>Лендинг разработан для презентации новой товарной линейки антифризов.<br>CMS: Wordpress</p>
                     </div>
                     <div class="card">
+                            <a href="site/x-freeze.html"><img src="img/sites/x-freeze.jpg" class="hover-shadow"></a>                    
+                            <a href="site/x-freeze.html"><h3>Антифриз "X-Freeze"</h3></a>
+                            <p>Редизайн лендинга для линейки "X-Freeze" антифризов</p>
+                    </div>
+                    <div class="card">
                         <a href="site/ikra-tattoing.html"><img src="img/sites/ikra.jpg" class="hover-shadow"></a>
                         <a href="site/ikra-tattoing.html">
                             <h3>Сайт-визитка для тату-мастера</h3>
@@ -187,6 +200,8 @@ const translations = {
                             <h3>Учебный сайт</h3>
                         </a>
                         <p>Сайт создан с использованием таблиц, модулей grid и flex</p>
+                    </div>
+                    <div class="card">
                     </div>
                 </div>
             </div>`,

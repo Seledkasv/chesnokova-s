@@ -119,6 +119,14 @@ section {
     background: url(img/vk-20-darkgreen.png);
     background-repeat: no-repeat;
 }
+.linkedin{
+    background: url(img/in-20-magenta.png);
+    background-repeat: no-repeat;
+}
+.linkedin:hover{
+    background: url(img/in-20-darkgreen.png);
+    background-repeat: no-repeat;
+}
 .tg{
     background: url(img/tg-20-magenta.png);
     background-repeat: no-repeat;
@@ -269,3 +277,4 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
     transform: scale(1.05);
 }
+

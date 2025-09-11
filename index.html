@@ -5,24 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Frontend-разработка">
-    <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://chesnokova-s.ru/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Chesnokova_S">
-<meta property="og:description" content="UX/UI design / Frontend development">
-<meta property="og:image" content="https://opengraph.b-cdn.net/production/images/11e134be-3f08-4cd3-816b-42b50cc4c2fe.jpg?token=sUjd21I0BGp51SS9mxLfkYm14HaPdWRTToc7Zh_v6jc&height=479&width=1200&expires=33288612071">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="chesnokova-s.ru">
-<meta property="twitter:url" content="https://chesnokova-s.ru/">
-<meta name="twitter:title" content="Chesnokova_S">
-<meta name="twitter:description" content="Frontend-разработка">
-<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/11e134be-3f08-4cd3-816b-42b50cc4c2fe.jpg?token=sUjd21I0BGp51SS9mxLfkYm14HaPdWRTToc7Zh_v6jc&height=479&width=1200&expires=33288612071">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="media.css">
+    <meta name="description" content="Frontend-разработка">
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
     <title>Chesnokova_S</title>
 
@@ -30,9 +16,8 @@
 
 <body>
     <header>
-        <!-- <a href="index.html"><img src="img/home-icon-silhouette.svg" ></a> -->
         <a href="index.html" class="home_button">
-            <svg fill="#8B008B" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            <svg fill="#C4926A" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 495.398 495.398"
                 xml:space="preserve">
                 <g>
@@ -53,7 +38,7 @@
         </a>
 
         <div>
-            <button onclick="changeLanguage('en')" class="button_lang">ENG</button>
+            <button onclick="changeLanguage('en')" class="button_lang">EN</button>
             <button onclick="changeLanguage('ru')" class="button_lang">RU</button>
         </div>
     </header>
@@ -66,18 +51,18 @@
             <div class="block-flex">
                 <div id="skills" class="block-flex-2-inside"></div>
                 <div class="block-flex-inside">
-                    <h4 id="contactsH"></h4>
+                    <h3 id="contactsH"></h3>
                     <p>chesnokova.svet@gmail.com</p>
-                    <div>
-                        <div><a href="https://t.me/seledkasv" class="social tg" target="_blank">Telegram</a></div>
-                        <div><a href="https://github.com/Seledkasv?tab=repositories" class="social git" target="_blank">GitHub</a></div>
-                        <div><a href="https://www.linkedin.com/in/chesnokovasv/" class="social linkedin" target="_blank">LinkedIn</a></div>
-                    </div>
+                    <ul class="li_social">
+                        <li class="li_social_tg"><a href="https://t.me/seledkasv" target="_blank">Telegram</a></li>
+                        <li class="li_social_linkedin"><a href="https://www.linkedin.com/in/chesnokovasv/" target="_blank">LinkedIn</a></li>
+                        <li class="li_social_git"><a href="https://github.com/Seledkasv?tab=repositories" target="_blank">GitHub</a></li>
+                    </ul>
                     <br>
-                    <h4 id="certificatesH"></h4>
+                    <h3 id="certificatesH"></h3>
                     <div class="certificate__accordion">
                         <button class="accordion">Web-программист: с нуля до первых проектов</button>
-                        <div class="panel">https://convertio.co/ru/pdf-mobi/
+                        <div class="panel">
                             <a href="img/tomsk-university.jpg" target="_blank"><img src="img/tomsk-university-min.jpg"
                                     alt="Web-программист: с нуля до первых проектов"></a>
                         </div>
@@ -103,9 +88,8 @@
     <footer id="footer">
     </footer>
 
+    <a href="#top"><button class="toTop"></button></a>
+
     <script src="main.js"></script>
 </body>
-
 </html>
-
-

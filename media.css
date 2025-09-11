@@ -30,4 +30,7 @@
     .gallery img {
         width: 100%;
     }
+    .toTop {
+        display: none;
+    }
 }

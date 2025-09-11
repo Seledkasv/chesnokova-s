@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Outfit:wght@100..900&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     box-sizing: border-box;
     font-family: "Onest", sans-serif;
@@ -255,4 +257,5 @@ img.hover-shadow {
 }
 .toTop:hover {
     background-color: #FF9F4D;
+
 }

@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Outfit:wght@100..900&display=swap');
 
 body{
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    background-image: url(img/bggreen.jpg);
+    font-family: "Onest", sans-serif;
+    background-image: url(img/bgblack.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    color: #000;
-    background-color: #63A39A;
+    background-position: top;
+    color: #D9D9D9;
+    font-weight: 200;
+    background-color: #010101;
     margin: auto;
 }
 
 a {
-    color: #8B008B;
+    color: #C4926A;
     text-decoration: none;
 }
 a:hover {
-    color: #008080;
-}
-
-a.hover_white:hover {
-    color: #fff;
-}
-.a_white_bg {
-    background: #ffffff;
-    padding: 6px 8px;
-    border-radius: 6px;
+    color: #FF9F4D;
 }
 
 ul {
     padding-left: 20px;
 }
 
-p, li {
-    line-height: 1.5em;
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.3em;
+}
+li {
+    line-height: 1.7em;
 }
 
 .home_button svg:hover {
-    fill:#008080;
+    fill:#FF9F4D;
 }
 
 header {
     max-width: 1280px;
     box-sizing: border-box;   
-    padding: 40px 40px 0;
+    padding: 60px 40px 20px;
     margin: auto;
     display: flex; 
     justify-content: space-between;
@@ -52,54 +51,44 @@ header {
 .button_lang {
     background: none;
     border: none;
-    color:#8B008B;
+    color:#C4926A;
     font-weight: 600;
     cursor: pointer;
 }
 .button_lang:hover {
-    color:#008080;
+    color:#FF9F4D;
 }
 
 section {    
     margin: auto;
 }
-
 .section-block {
     box-sizing: border-box;
     max-width: 1280px;
-    padding: 20px 40px 60px;
+    padding: 40px 40px 60px;
     margin: auto;
 }
-
 .block-flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .block-flex-2-inside {
     width: 40%;
     padding-right: 20px;
 }
-
 .card {
     width: 30%;
-    margin-bottom: 40px;
+    margin: 2rem 0;
 }
-
 .card img {
     max-width: 100%;
+    border: 1px solid #333;
 }
-
-.section-2 {
-    background: #fff;
-}
-
 .block-3 {
     line-height: 1.5em;
-    background: #e4f4c5;
+    background: #222;
 }
-
 
 /* Иконки соц сетей */
 
@@ -107,49 +96,21 @@ section {
     display: flex;
     justify-content: space-between;
 }
-.social{
-    padding-left: 25px;
-    line-height: 1.5em;
+.li_social {
+    list-style-type: none; /* Убираем стандартные маркеры */
+    padding-left: 0;
 }
-.vk{
-    background: url(img/vk-20-magenta.png);
-    background-repeat: no-repeat;
+.li_social_tg {
+    background: url(img/social_icons/tg.svg) 0 50% / 20px no-repeat;
+    padding-left: 28px;
 }
-.vk:hover{
-    background: url(img/vk-20-darkgreen.png);
-    background-repeat: no-repeat;
+.li_social_linkedin {
+    background: url(img/social_icons/linkedin.svg) 0 50% / 20px no-repeat;
+    padding-left: 28px;
 }
-.linkedin{
-    background: url(img/in-20-magenta.png);
-    background-repeat: no-repeat;
-}
-.linkedin:hover{
-    background: url(img/in-20-darkgreen.png);
-    background-repeat: no-repeat;
-}
-.tg{
-    background: url(img/tg-20-magenta.png);
-    background-repeat: no-repeat;
-}
-.tg:hover{
-    background: url(img/tg-20-darkgreen.png);
-    background-repeat: no-repeat;
-}
-.git{
-    background: url(img/github-logo-20-magenta.png);
-    background-repeat: no-repeat;
-}
-.git:hover{
-    background: url(img/github-logo-20-darkgreen.png);
-    background-repeat: no-repeat;
-}
-.git_footer {
-    background: url(img/github-logo-20-magenta.png);
-    background-repeat: no-repeat;
-}
-.git_footer:hover {
-    background: url(img/github-logo-white-20x20.png);
-    background-repeat: no-repeat;
+.li_social_git{
+    background: url(img/social_icons/git_w.svg) 0 50% / 20px no-repeat;
+    padding-left: 28px;
 }
 
 /* Сертификаты */
@@ -157,26 +118,26 @@ section {
 .accordion {
     display: flex;
     flex-direction: column;
-    background-color: #63A39A;
-    color: #fff;
+    background-color: #98765B;
+    color: #010101;
     cursor: pointer;
     padding: 10px;
+    margin-bottom: 2px;
     width: 100%;
     text-align: left;
     font-size: .9em;
     border: none;
-    border-radius: 2px;
-    /* border-bottom: 2px solid black; */
+    border-radius: 4px;
     outline: none;
     transition: 0.4s;
 }
 .active, .accordion:hover {
-    background-color: #fff;
-    color: #8B008B;
+    background-color: #534132;
+    color: #C4926A;
 }
 .panel {
     padding: 10px;
-    background-color: white;
+    background-color: #010101;
     color: #000;
     display: none;
     overflow: hidden;
@@ -186,17 +147,16 @@ section {
     max-width: 100%;
 }
 
-.line {
-    border: 1px #fff solid;
-}
-
 /* FOOTER */
 
 .footer__content{
     max-width: 1280px;
     margin: auto;
-    text-align: center;
-    padding: 40px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
 }
 
 /* ГАЛЕРЕЯ */
@@ -205,18 +165,19 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin: 40px 0 30px;
   }
   .gallery img {
     width: 31%;
     height: 31%;
     cursor: pointer;
+    border: 1px solid #333;
     margin-bottom: 30px;
     transition: transform 0.3s;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5)
   }
   .gallery img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
   }
   /* Modal styles */
   .modal {
@@ -246,7 +207,7 @@ section {
   .close, .prev, .next {
     position: fixed;
     top: 50%;
-    color:#fff;
+    color:#C4926A;
     font-size: 48px;
     font-weight: 600;
     background: rgba(0, 0, 0, 0.0);
@@ -255,7 +216,7 @@ section {
     padding: 10px;
   }
   .close:hover, .prev:hover, .next:hover {
-    color:#008080;
+    color:#FF9F4D;
   }
   .close {
     top: 2%;
@@ -274,7 +235,24 @@ img.hover-shadow {
 }
   
 .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    border: 1px #FF9F4D solid;
+    box-shadow: 0px 0px 30px 0px rgba(255, 159, 77, .5);
     transform: scale(1.05);
 }
 
+.toTop{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    bottom: 60px;
+    right: 40px;
+    z-index: 1;
+    background: url(img/totop.svg);
+    background-color: #C4926A;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.toTop:hover {
+    background-color: #FF9F4D;
+}

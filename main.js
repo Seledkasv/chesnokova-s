@@ -2,7 +2,7 @@
 const translations = {
     en: {
         name: `Сhesnokova Svetlana`,
-        description: `UX/UI designer / Junior frontend developer`,
+        description: `Junior frontend developer`,
         skills: `                     
             <ul>
                 <li>Websites development</li>
@@ -11,7 +11,7 @@ const translations = {
                 <li>Administration and support of websites and online stores on CMS</li>
             </ul>
             <br>
-            <h4>Skills</h4>
+            <h3>Skills</h3>
             <ul>
                 <li>UI/UX design</li>
                 <li>HTML, CSS</li>
@@ -19,10 +19,10 @@ const translations = {
                 <li>IDE: VSCode</li>
                 <li>VCS: Basic Git (Github)</li>
                 <li>CMS: Wordpress, Joomla, Opencart</li>
-                <li>CRM: Redmine, ПланФикс, Битрикс24</li>
+                <li>CRM: Redmine, Planfix, Bitrix24</li>
                 <li>Graphic programs: Figma, Adobe Photoshop, CorelDRAW, ArchiCAD, Autodesk 3ds Max</li>
             </ul>
-            <a href="CV_Svetlana_Chesnokova_2025.pdf" target="_blank">My resume</a>
+            <a href="CV_Svetlana_Chesnokova.pdf" target="_blank">My resume</a>
             `,
         contactsH: `Contacts`,
 
@@ -31,8 +31,13 @@ const translations = {
         content_porfolio: `
                 <div class="section-block">
                     <h2>My projects</h2>
-                    <h4>Development of websites and online stores</h4>
+                    <h3>Development of websites and online stores</h3>
                     <div class="block-flex">
+                        <div class="card">
+                            <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
+                            <a href="site/sunrice.html"><h3>Corporate website</h3></a>
+                            <p>Corporate website for a construction company.<br>CMS: WordPress</p>
+                        </div>
                         <div class="card">
                             <a href="site/sunrice.html"><img src="img/sites/sunrice.jpg" class="hover-shadow"></a>                    
                             <a href="site/sunrice.html"><h3>Online store and sushi delivery "Sunrice"</h3></a>
@@ -61,22 +66,19 @@ const translations = {
 
                         <div class="card">
                             <a href="site/mama-lena.html"><img src="img/sites/mama-lena.jpg" class="hover-shadow"></a>                    
-                            <a href="site/mama-lena.html"><h3>Website for a roadside cafe "Мама Лена"</h3></a>
+                            <a href="site/mama-lena.html"><h3>Website for a roadside cafe "Mama Lena"</h3></a>
                             <p>Business card website of a roadside cafe for the convenience of customers in finding the address on the map.</p>
                         </div>
-
                         <div class="card">
                             <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
                             <a href="site/seledkasv.html"><h3>Gallery of photos and paintings</h3></a>
                             <p>Business card website with portfolio<br>CMS: Wordpress</p>
                         </div>
-
                         <div class="card">
                             <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>                    
                             <a href="site/study.html"><h3>Study website</h3></a>
                             <p>The site is created using tables, grid and flex modules</p>
                         </div>
-
                         <div class="card">
                         </div>
                     </div>
@@ -84,7 +86,7 @@ const translations = {
 
         content_2016: `
             <div class="section-block">
-                <h4>Website design (2016)</h4>
+                <h3>Website design (2016)</h3>
                 <div>
                     <div>UX/UI design and content creation for a website for ordering craft cupcakes. Development of the order form block.</div>
                     <a href="img/cupcackes-p1.jpg" target="_blank">Website for ordering craft cupcakes</a>
@@ -105,16 +107,16 @@ const translations = {
 
         footer: `
             <div class="footer__content">
-                <a href="https://github.com/Seledkasv/chesnokova-s" class="social git_footer hover_white" target="_blank"><br>View source code</a>
+                <img src="img/social_icons/git_w.svg">
+                <a href="https://github.com/Seledkasv/chesnokova-s" target="_blank">View source code</a>
                 <br>
-                <br>
-                <p>2022-2024</p>
+                <p>2022-2025</p>
             </div>`
     },
 
     ru: {
         name: `Чеснокова Светлана`,
-        description: `UX/UI дизайнер / Frontend-разработчик`,
+        description: `Frontend-разработчик`,
         skills: `                     
             <ul>
                 <li>Разработка сайтов</li>
@@ -123,7 +125,7 @@ const translations = {
                 <li>Администрирование и поддержка сайтов и интернет-магазинов на CMS</li>
             </ul>
             <br>
-            <h4>Навыки</h4>
+            <h3>Навыки</h3>
             <ul>
                 <li>UI/UX дизайн</li>
                 <li>HTML, CSS</li>
@@ -143,13 +145,18 @@ const translations = {
         content_porfolio: `
             <div class="section-block">
                 <h2>Мои работы</h2>
-                <h4>Разработка сайтов и интернет-магазинов</h4>
+                <h3>Разработка сайтов и интернет-магазинов</h3>
                 <div class="block-flex">
+                    <div class="card">
+                            <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
+                            <a href="site/sunrice.html"><h3>Корпоративный сайт</h3></a>
+                            <p>Корпоративный сайт для строительной компании<br>CMS: WordPress</p>
+                    </div>
                     <div class="card">
                             <a href="site/sunrice.html"><img src="img/sites/sunrice.jpg" class="hover-shadow"></a>                    
                             <a href="site/sunrice.html"><h3>Онлайн-магазин и доставка суши "Sunrice"</h3></a>
                             <p>Создание интернет-магазина с разработкой дополнительных функций<br>CMS: Tilda</p>
-                        </div>
+                    </div>
                     <div class="card">
                         <a href="site/optic-angel.html"><img src="img/sites/optic-angel.jpg" class="hover-shadow"></a>
                         <a href="site/optic-angel.html">
@@ -185,7 +192,6 @@ const translations = {
                         </a>
                         <p>Сайт-визитка придорожного кафе для удобства клиентов в поиске адреса на карте.</p>
                     </div>
-
                     <div class="card">
                         <a href="site/seledkasv.html"><img src="img/sites/seledka.jpg" class="hover-shadow"></a>
                         <a href="site/seledkasv.html">
@@ -193,7 +199,6 @@ const translations = {
                         </a>
                         <p>Сайт-визитка с портфолио<br>CMS: Wordpress</p>
                     </div>
-
                     <div class="card">
                         <a href="site/study.html"><img src="img/sites/study3.jpg" class="hover-shadow"></a>
                         <a href="site/study.html">
@@ -208,7 +213,7 @@ const translations = {
 
         content_2016: `
             <div class="section-block">
-                <h4>Дизайн сайтов (2016г)</h4>
+                <h3>Дизайн сайтов (2016г)</h3>
                 <div>
                     <div>UX/UI и создание контента для сайта по заказу крафтовых кексов. Разработка формы заказа.</div>
                     <a href="img/cupcackes-p1.jpg" target="_blank">Сайт для заказа крафтовых кексов</a>
@@ -229,10 +234,10 @@ const translations = {
 
         footer: `
             <div class="footer__content">
-                <a href="https://github.com/Seledkasv/chesnokova-s" class="social git_footer hover_white" target="_blank"><br>Посмотреть исходный код</a>
+                <img src="img/social_icons/git_w.svg">
+                <a href="https://github.com/Seledkasv/chesnokova-s" target="_blank">Посмотреть исходный код</a>
                 <br>
-                <br>
-                <p>2022-2024 г.</p>
+                <p>2022-2025 г.</p>
             </div>`
     }
 };

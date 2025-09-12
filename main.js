@@ -35,7 +35,7 @@ const translations = {
                     <div class="block-flex">
                         <div class="card">
                             <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
-                            <a href="site/sunrice.html"><h3>Corporate website</h3></a>
+                            <a href="site/sipline.html"><h3>Corporate website</h3></a>
                             <p>Corporate website for a construction company.<br>CMS: WordPress</p>
                         </div>
                         <div class="card">
@@ -304,4 +304,5 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
+
 }

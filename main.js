@@ -36,7 +36,7 @@ const translations = {
                         <div class="card">
                             <a href="site/nailia-din.html"><img src="img/sites/nailia-din.jpg" class="hover-shadow"></a>                    
                             <a href="site/nailia-din.html"><h3>Landing page</h3></a>
-                            <p>Landing page for presenting the psychologist's services and contact informationа<br>CMS: WordPress</p>
+                            <p>Landing page for psychologist services<br>CMS: WordPress</p>
                         </div>
                         <div class="card">
                             <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
@@ -316,5 +316,6 @@ for (i = 0; i < acc.length; i++) {
     });
 
 }
+
 
 

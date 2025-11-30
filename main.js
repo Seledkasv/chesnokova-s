@@ -34,6 +34,11 @@ const translations = {
                     <h3>Development of websites and online stores</h3>
                     <div class="block-flex">
                         <div class="card">
+                            <a href="site/nailia-din.html"><img src="img/sites/nailia-din.jpg" class="hover-shadow"></a>                    
+                            <a href="site/nailia-din.html"><h3>Landing page</h3></a>
+                            <p>Landing page for presenting the psychologist's services and contact informationа<br>CMS: WordPress</p>
+                        </div>
+                        <div class="card">
                             <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
                             <a href="site/sipline.html"><h3>Corporate website</h3></a>
                             <p>Corporate website for a construction company.<br>CMS: WordPress</p>
@@ -147,6 +152,11 @@ const translations = {
                 <h2>Мои работы</h2>
                 <h3>Разработка сайтов и интернет-магазинов</h3>
                 <div class="block-flex">
+                    <div class="card">
+                        <a href="site/nailia-din.html"><img src="img/sites/nailia-din.jpg" class="hover-shadow"></a>
+                        <a href="site/nailia-din.html"><h3>Лендинг</h3></a>
+                        <p>Лендинг для психолога<br>CMS: WordPress</p>
+                    </div>
                     <div class="card">
                             <a href="site/sipline.html"><img src="img/sites/sipline.jpg" class="hover-shadow"></a>                    
                             <a href="site/sipline.html"><h3>Корпоративный сайт</h3></a>
@@ -306,4 +316,5 @@ for (i = 0; i < acc.length; i++) {
     });
 
 }
+
 

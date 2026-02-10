@@ -34,6 +34,11 @@ const translations = {
                     <h3>Development of websites and online stores</h3>
                     <div class="block-flex">
                         <div class="card">
+                            <a href="site/teamdesignstudio.html"><img src="img/sites/teamdesignstudio.jpg" class="hover-shadow"></a>                    
+                            <a href="site/teamdesignstudio.html"><h3>Portfolio for interior designer</h3></a>
+                            <p>Business card website with portfolio.</p>
+                        </div>
+                        <div class="card">
                             <a href="site/nailia-din.html"><img src="img/sites/nailia-din.jpg" class="hover-shadow"></a>                    
                             <a href="site/nailia-din.html"><h3>Landing page</h3></a>
                             <p>Landing page for psychologist services<br>CMS: WordPress</p>
@@ -152,6 +157,11 @@ const translations = {
                 <h2>Мои работы</h2>
                 <h3>Разработка сайтов и интернет-магазинов</h3>
                 <div class="block-flex">
+                    <div class="card">
+                            <a href="site/teamdesignstudio.html"><img src="img/sites/teamdesignstudio.jpg" class="hover-shadow"></a>                    
+                            <a href="site/teamdesignstudio.html"><h3>Портфолио для дизайнера интерьеров</h3></a>
+                            <p>Сайт-визитка с портфолио.</p>
+                        </div>
                     <div class="card">
                         <a href="site/nailia-din.html"><img src="img/sites/nailia-din.jpg" class="hover-shadow"></a>
                         <a href="site/nailia-din.html"><h3>Лендинг</h3></a>
@@ -301,7 +311,7 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+    acc[i].addEventListener("click", function () {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
         this.classList.toggle("active");
@@ -314,8 +324,4 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
-
 }
-
-
-

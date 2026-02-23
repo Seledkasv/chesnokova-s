@@ -120,7 +120,7 @@ const translations = {
                 <img src="img/social_icons/git_w.svg">
                 <a href="https://github.com/Seledkasv/chesnokova-s" target="_blank">View source code</a>
                 <br>
-                <p>2022-2025</p>
+                <p>2022-2026</p>
             </div>`
     },
 
@@ -326,3 +326,4 @@ for (i = 0; i < acc.length; i++) {
     });
 
 }
+

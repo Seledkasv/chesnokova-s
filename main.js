@@ -257,7 +257,7 @@ const translations = {
                 <img src="img/social_icons/git_w.svg">
                 <a href="https://github.com/Seledkasv/chesnokova-s" target="_blank">Посмотреть исходный код</a>
                 <br>
-                <p>2022-2025 г.</p>
+                <p>2022-2026 г.</p>
             </div>`
     }
 };
@@ -324,4 +324,5 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
+
 }
